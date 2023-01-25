@@ -5,9 +5,9 @@ numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
 
 def sort(numbers):
 
-    for h in range(7):
+    for h in range(9):
         mainpos = h
-        for j in range(h,8):
+        for j in range(h,10):
             if numbers[j] < numbers[mainpos]:
                 mainpos = j
         
