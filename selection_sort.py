@@ -7,3 +7,6 @@ def sort(numbers):
 
     for h in range(5):
         mainpos = h
+        for j in range(h,6):
+            if numbers[j] < numbers[mainpos]:
+                mainpos = j
