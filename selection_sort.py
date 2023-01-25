@@ -2,7 +2,10 @@ print("************  PROGRAMMED BY  ************")
 print("********* HYDEE LYN C. PALISOC *********\n")
 
 numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
-
+print("\t\tARRAY VALUES")
+print(numbers)
+print()
+print("=========================================\n")
 def sort(numbers):
 
     for h in range(9):
