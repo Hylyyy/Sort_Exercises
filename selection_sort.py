@@ -10,3 +10,7 @@ def sort(numbers):
         for j in range(h,6):
             if numbers[j] < numbers[mainpos]:
                 mainpos = j
+        
+        temp = numbers[h]
+        numbers[h] = numbers[mainpos]
+        numbers[mainpos] = temp
