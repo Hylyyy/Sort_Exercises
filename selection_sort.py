@@ -14,3 +14,7 @@ def sort(numbers):
         temp = numbers[h]
         numbers[h] = numbers[mainpos]
         numbers[mainpos] = temp
+
+sort(numbers)
+
+print(numbers)
