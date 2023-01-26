@@ -2,7 +2,7 @@ print("************  PROGRAMMED BY  ************")
 print("********* HYDEE LYN C. PALISOC *********\n")
 
 numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
-print("\t\tARRAY VALUES")
+print("============= ARRAY VALUES ==============")
 print(numbers)
 print()
 print("=========================================\n")
@@ -18,7 +18,8 @@ def sort(numbers):
         temp = numbers[h]
         numbers[h] = numbers[mainpos]
         numbers[mainpos] = temp
+        print(numbers)
 
 sort(numbers)
-
+print("\n============= SORTED ARRAYS =============\n")
 print(numbers)
