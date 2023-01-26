@@ -2,6 +2,10 @@ print("************  PROGRAMMED BY  ************")
 print("********* HYDEE LYN C. PALISOC *********\n")
 
 numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
+print("\t\tARRAY VALUES")
+print(numbers)
+print()
+print("=========================================\n")
 
 def merge_sort(array):
     if len(array) > 1:
