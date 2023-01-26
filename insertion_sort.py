@@ -9,3 +9,6 @@ def insertion_sort(numbers):
         while numbers[j - 1] > numbers[j] and j > 0:
             numbers[j - 1], numbers[j] = numbers[j], numbers[j - 1]
             j -= 1
+
+insertion_sort(numbers)
+print(numbers)
