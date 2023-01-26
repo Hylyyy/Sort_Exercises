@@ -27,3 +27,7 @@ def partition(array, left, right):
         array[h], array[right] = array[right], array[h]
 
     return h
+
+quicksort(array, 0, len(array) -1)
+
+print(array)
