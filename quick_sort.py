@@ -6,3 +6,7 @@ numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
 def quicksort(array, left, right):
     if left < right:
         
+
+def partition(array, left, right):
+    h = left
+    j = right - 1
