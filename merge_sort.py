@@ -24,3 +24,8 @@ def merge_sort(array):
                 array[l] = right_array[j]
                 j += 1
             l += 1
+
+        while h < len(left_array):
+            array[l] = left_array[h]
+            h += 1
+            l += 1
