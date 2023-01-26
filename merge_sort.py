@@ -34,3 +34,7 @@ def merge_sort(array):
             array[l] = right_array[j]
             j += 1
             l += 1
+
+merge_sort(numbers)
+
+print(numbers)
