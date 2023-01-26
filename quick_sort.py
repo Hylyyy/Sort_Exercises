@@ -13,3 +13,4 @@ def quicksort(array, left, right):
 def partition(array, left, right):
     h = left
     j = right - 1
+    pivot = array[right]
