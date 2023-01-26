@@ -22,4 +22,8 @@ def partition(array, left, right):
             j -= 1
         if h < j:
             array[h], array[j] = array[h], array[h]
-                    
+
+    if array[h] > pivot:
+        array[h], array[right] = array[right], array[h]
+
+    return h
