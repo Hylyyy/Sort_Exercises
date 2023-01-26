@@ -2,7 +2,7 @@ print("************  PROGRAMMED BY  ************")
 print("********* HYDEE LYN C. PALISOC *********\n")
 
 numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
-print("\t\tARRAY VALUES")
+print("============= ARRAY VALUES ==============")
 print(numbers)
 print()
 print("=========================================\n")
@@ -38,7 +38,8 @@ def merge_sort(array):
             array[l] = right_array[j]
             j += 1
             l += 1
+    print(array)
 
 merge_sort(numbers)
-
+print("\n============= SORTED ARRAYS =============\n")
 print(numbers)
