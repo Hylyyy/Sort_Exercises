@@ -20,4 +20,6 @@ def partition(array, left, right):
             h += 1
         while j > left and array[j] >= pivot:
             j -= 1
-        
+        if h < j:
+            array[h], array[j] = array[h], array[h]
+                    
