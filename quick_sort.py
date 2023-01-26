@@ -2,7 +2,7 @@ print("************  PROGRAMMED BY  ************")
 print("********* HYDEE LYN C. PALISOC *********\n")
 
 numbers = [51, 30, 69, 100, 46, 63, 41, 19, 98, 49]
-print("\t\tARRAY VALUES")
+print("============= ARRAY VALUES ==============")
 print(numbers)
 print()
 print("=========================================\n")
@@ -35,5 +35,5 @@ def partition(numbers, left, right):
     return h
 
 quicksort(numbers, 0, len(numbers) -1)
-
+print("\n============= SORTED ARRAYS =============\n")
 print(numbers)
