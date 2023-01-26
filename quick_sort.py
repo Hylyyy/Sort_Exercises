@@ -14,3 +14,8 @@ def partition(array, left, right):
     h = left
     j = right - 1
     pivot = array[right]
+
+    while h < j:
+        while h < right and array[h] < pivot:
+            h += 1
+        
