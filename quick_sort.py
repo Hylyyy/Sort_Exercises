@@ -22,9 +22,11 @@ def partition(numbers, left, right):
             j -= 1
         if h < j:
             numbers[h], numbers[j] = numbers[j], numbers[h]
+            print(numbers)
 
     if numbers[h] > pivot:
         numbers[h], numbers[right] = numbers[right], numbers[h]
+        print(numbers)
 
     return h
 
