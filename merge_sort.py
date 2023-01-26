@@ -11,3 +11,9 @@ def merge_sort(array):
         #recusion
         merge_sort(left_array)
         merge_sort(right_array)
+
+        #merge
+        h = 0 #left_array 
+        j = 0 #right_array
+        l = 0 #merged array
+        
